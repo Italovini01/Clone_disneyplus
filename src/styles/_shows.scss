@@ -1,0 +1,15 @@
+.shows {
+    padding: 2vw;
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
+        &__item {
+            img {
+                max-width: 100%;
+                border-radius: 24px;
+            }
+        }
+    }
+}
